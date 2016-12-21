@@ -1,0 +1,73 @@
+body{
+  width: 100%;
+}
+.image1Wrapper{
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 80px;
+}
+.svg-image{
+  transition: all 1s;
+  transform-origin: 75px 75px;
+}
+.circle1{
+  fill: #f78787;
+}
+.square1{
+  fill: #bd3f3f;
+}
+.square2{
+  fill: #bd3f3f;
+}
+.btn-selector .circle1{
+  fill: #a684ff;
+}
+.btn-selector .square2{
+  transform: rotate(45deg);
+  transform-origin: 75px 75px;
+  fill:#5f3eec;
+}
+.btn-selector .square1{
+  fill:#5f00bb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
