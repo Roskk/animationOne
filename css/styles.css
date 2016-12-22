@@ -11,11 +11,24 @@ body{
   transition: all 5s;
   transform-origin: 75px 75px;
 }
-.circle1{
+.btn-selector .circle1{
   fill: #f78787;
-  stroke: #00000000;
-  stroke-width: 3;
+  stroke: #ea83f1;
+  stroke-width: 2;
   stroke-miterlimit: 5;
+
+  stroke-dasharray: 26;
+  stroke-dashoffset: 0;
+  animation: dash 4s linear forwards;
+  -webkit animation: dash 4s linear forwards;
+}
+@-webkit-keyframes dash{
+  from{
+    stroke-dashoffset: 26;
+  }
+  to{
+    stroke-dashoffset: 0;
+  }
 }
 .square1{
   fill: #bd3f3f;
@@ -27,17 +40,20 @@ body{
   fill: #a684ff;
 }
 .btn-selector .square1{
-  transform: rotate(-22.5deg);
+  transform: rotate(-67.5deg);
   transform-origin: 75px 75px;
   fill:#5f3eec;
 }.btn-selector .square2{
-  transform: rotate(22deg);
+  transform: rotate(67.5deg);
   transform-origin: 75px 75px;
   fill:#5f3eec;
 }
 .btn-selector .square1{
   fill:#5f00bb;
 }
+
+
+
 
 
 
