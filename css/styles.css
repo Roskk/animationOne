@@ -8,7 +8,7 @@ body{
   padding: 80px;
 }
 .svg-image{
-  transition: all 1s;
+  transition: all 5s;
   transform-origin: 75px 75px;
 }
 .circle1{
@@ -23,8 +23,12 @@ body{
 .btn-selector .circle1{
   fill: #a684ff;
 }
-.btn-selector .square2{
-  transform: rotate(45deg);
+.btn-selector .square1{
+  transform: rotate(-22.5deg);
+  transform-origin: 75px 75px;
+  fill:#5f3eec;
+}.btn-selector .square2{
+  transform: rotate(22deg);
   transform-origin: 75px 75px;
   fill:#5f3eec;
 }
