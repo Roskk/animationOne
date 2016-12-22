@@ -13,6 +13,9 @@ body{
 }
 .circle1{
   fill: #f78787;
+  stroke: #00000000;
+  stroke-width: 3;
+  stroke-miterlimit: 5;
 }
 .square1{
   fill: #bd3f3f;
